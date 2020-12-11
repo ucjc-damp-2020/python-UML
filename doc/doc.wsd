@@ -1,0 +1,11 @@
+@startuml
+scale 2
+class Persona {
+    + nombre: string
+    + apellido: string
+}
+
+class Padre {
+    + deporte()
+}
+@enduml
