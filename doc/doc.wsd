@@ -4,7 +4,6 @@ class Persona {
     + nombre: string
     + apellido: string
 }
-
 class Padre {
     + deporte()
 }
