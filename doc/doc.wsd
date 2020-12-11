@@ -7,4 +7,20 @@ class Persona {
 class Padre {
     + deporte()
 }
+class Madre {
+    + deporte()
+}
+class DatosPersonales {
+    + email: string
+    # DNI: string
+}
+class Deportes {
+    + tipo: string
+}
+
+Persona o-- Padre
+Persona o-- Madre
+Padre "1" *-- "*" DatosPersonales
+Madre "1" *-- "*" DatosPersonales
+Persona --> Deportes
 @enduml
